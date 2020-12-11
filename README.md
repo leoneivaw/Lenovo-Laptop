@@ -1,4 +1,4 @@
-# Lenovo-Laptop
+# Lenovo-Laptop Battery conservation
 
 Script for Linux based system with some options.
 
