@@ -9,7 +9,7 @@ Enable/Disable Battery conservation mode for Lenovo Laptop.
 <br><br>
 
 
-<b>INSTALLATION</b>
+<b>INSTALLATION</b><br>
 <br>
 *BIN FOLDER:<br>
 Put battery.sh in your BIN folder
