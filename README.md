@@ -11,7 +11,7 @@ Enable/Disable Battery conservation mode for Lenovo Laptop.
 
 <b>INSTALLATION</b>
 <br>
-*BIN FOLDER:
+*BIN FOLDER:<br>
 Put battery.sh in your BIN folder
 <br>
 Give the right permission:
@@ -20,7 +20,7 @@ sudo chmod +x battery.sh
 Just run battery.sh from terminal
 <br><br>
 
-*NOT IN THE BIN FOLDER:
+*NOT IN THE BIN FOLDER:<br>
 Give the right permission:
 sudo chmod +x battery.sh
 <br>
