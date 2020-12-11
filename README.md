@@ -5,6 +5,8 @@ Script for Linux based system with some options.
 Enable/Disable Battery conservation mode for Lenovo Laptop.
 
 
+
+
 INSTALLATION
 
 BIN FOLDER:
