@@ -1,28 +1,28 @@
 # Lenovo-Laptop Battery conservation
-<img src="https://repository-images.githubusercontent.com/320591604/62503b80-3ba5-11eb-8a54-fd21eb4b5524">
+<img src="https://repository-images.githubusercontent.com/320591604/62503b80-3ba5-11eb-8a54-fd21eb4b5524" size=500>
 
 
 Script for Linux based system with some options.
-
+<br>
 Enable/Disable Battery conservation mode for Lenovo Laptop.
 
+<br><br>
 
 
-
-INSTALLATION
-
-BIN FOLDER:
+<b>INSTALLATION</b>
+<br>
+*BIN FOLDER:
 Put battery.sh in your BIN folder
-
+<br>
 Give the right permission:
 sudo chmod +x battery.sh
- 
+ <br>
 Just run battery.sh from terminal
+<br><br>
 
-
-NOT IN THE BIN FOLDER:
+*NOT IN THE BIN FOLDER:
 Give the right permission:
 sudo chmod +x battery.sh
-
+<br>
 Run the file from any folder from terminal:
 ./battery.sh
