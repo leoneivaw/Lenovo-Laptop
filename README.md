@@ -17,6 +17,8 @@ Just run battery.sh from terminal
 
 
 NOT IN THE BIN FOLDER:
+Give the right permission:
+sudo chmod +x battery.sh
 
 Run the file from any folder from terminal:
 ./battery.sh
