@@ -19,7 +19,7 @@ then
 	echo 1 > /sys/bus/platform/drivers/ideapad_acpi/VPC2004:00/conservation_mode
 	echo ""
 	echo "Modo de conservação habilitado."
-	echo " :) Enjoy"
+	echo " :) "
 	echo ""
 fi
 if [ $sw -eq 2 ]
@@ -27,7 +27,7 @@ then
 	echo 0 > /sys/bus/platform/drivers/ideapad_acpi/VPC2004:00/conservation_mode
 	echo ""
 	echo "Modo de conservação desabiltado."
-	echo "Take Easy"
+	echo "......."
 	echo ""
 fi
 if [ $sw -eq 3 ] 
