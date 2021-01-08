@@ -5,6 +5,18 @@ carga=$(cat /sys/class/power_supply/BAT*/capacity)
 echo ""
 echo "***Bateria IdeaPad***"
 echo "***Carga atual $carga%***"
+	if grep -q 1 /sys/bus/platform/drivers/ideapad_acpi/VPC2004:00/conservation_mode;
+	then 
+		echo ""
+		echo "MODO DE CONSERVAÇÃO HABILITADO."
+				echo ""
+				upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep -E "state|to\ full|capacity|voltage"
+				fi
+	if grep -q 0 /sys/bus/platform/drivers/ideapad_acpi/VPC2004:00/conservation_mode;
+	then
+		echo ""
+		echo "MODO DE CONSERVAÇÃO DESABILITADO."
+fi
 echo ""
 echo "1) Habilitar modo de conservação"
 echo "2) Desabilitar modo de conservação"
@@ -19,7 +31,7 @@ then
 	echo 1 > /sys/bus/platform/drivers/ideapad_acpi/VPC2004:00/conservation_mode
 	echo ""
 	echo "Modo de conservação habilitado."
-	echo " :) "
+	echo " :) Enjoy"
 	echo ""
 fi
 if [ $sw -eq 2 ]
@@ -27,7 +39,7 @@ then
 	echo 0 > /sys/bus/platform/drivers/ideapad_acpi/VPC2004:00/conservation_mode
 	echo ""
 	echo "Modo de conservação desabiltado."
-	echo "......."
+	echo "Take Easy"
 	echo ""
 fi
 if [ $sw -eq 3 ] 
